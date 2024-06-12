@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function() {
       if (counter > totalSlides) {
         counter = 1;
       }
-    }, 4000); // Altera a cada 3 segundos (3000 ms)
+    }, 5000); // Altera a cada 3 segundos (3000 ms)
   });

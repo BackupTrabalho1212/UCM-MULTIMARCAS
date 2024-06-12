@@ -81,6 +81,44 @@ header{
     padding: 15px;
   } 
   
+  @keyframes textUCM {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    }
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+    }
+  }
+  
+  @keyframes textUCM {
+    0% {
+        text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #ffffff, 0 0 8px #ffffff, 0 0 10px #ffffff, 0 0 12px #ffffff, 0 0 14px #ffffff;
+    }
+    2% {
+        text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #ffffff, 0 0 16px #ffffff, 0 0 20px #ffffff, 0 0 24px #ffffff, 0 0 28px #ffffff;
+    }
+    2% {
+        text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #ffffff, 0 0 8px #ffffff, 0 0 10px #ffffff, 0 0 12px #ffffff, 0 0 14px #ffffff;
+    }
+  }
+  
+  
+
+
+  
+  
+  #title h1 {
+    animation: textUCM 2s infinite, textBlink2 1s infinite;
+  }
+  
+  .logo {
+    height: 50px; /* ajuste o tamanho conforme necessário */
+  }
+
+
   h1 {
     font-size:  50px;
     font-weight: 600;
@@ -92,6 +130,23 @@ header{
     font-weight: 300;
   
   }
+
+  #title {
+    display: flex;
+    align-items: center;
+  }
+  
+  #title .logo {
+    width: 150px; /* Ajuste o valor conforme necessário */
+    margin-right: 10px; /* Ajuste o valor conforme necessário */
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+
+  
+
 
 
   p {
