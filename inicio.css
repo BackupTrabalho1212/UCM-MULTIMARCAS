@@ -288,18 +288,27 @@ h1 {
 
 /*contúdo-do-site*/
 
+/*3 veiculos embaixo*/
+
 .container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between; /* Distribui os itens uniformemente ao longo do eixo principal (horizontal) */
   align-items: flex-start;
   padding: 20px;
   margin-top: 60px;
-  flex-wrap: wrap;
 }
 
 .card {
-  margin-right: 205px;
+  width: 30%; /* Definir uma largura fixa para as cartas para garantir que elas caibam na tela */
+  text-align: center; /* Centraliza o texto */
 }
+
+.card img {
+  width: 100%; /* Garante que a imagem ocupe 100% da largura da div .card */
+  height: auto;
+}
+
+/*3 veiculos embaixo*/
 
 .section {
   width: 100%;
